@@ -1,0 +1,9 @@
+Multilingual Emotion Detection | Python, PyTorch, Hugging Face Transformers, scikit-learn, LIME
+
+Developed a multi-label emotion classification deep learning model for English, Hindi, and Marathi text using DistilBERT and mBERT architectures.  
+
+Increased the English model's F1-macro score from a 0.372 baseline to 0.620, and achieved a 0.811 F1-macro score on the multilingual dataset.  
+
+Handled dataset class imbalance by implementing custom loss functions, specifically Focal Loss and Weighted BCE, to improve detection accuracy across all emotion categories.  
+
+Added interpretability features using LIME and attention heatmaps to visually highlight the specific words and tokens driving the model's predictions
