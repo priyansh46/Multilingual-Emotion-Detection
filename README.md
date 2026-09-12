@@ -9,6 +9,9 @@ This project implements a multilingual multi-label emotion classifier using Dist
 * **Model Interpretability:** Integrates LIME (Local Interpretable Model-agnostic Explanations) and attention weight heatmaps to explain model predictions word-by-word[cite: 1].
 * **Automated Data Pipeline:** Automatically extracts, verifies, and formats the SemEval 2025 Task 11 dataset[cite: 1].
 
+## Dataset Link 
+[SemEval2025-Task11 Dataset](https://github.com/emotion-analysis-project/SemEval2025-Task11)
+
 ## Performance
 * **English Model:** Improved F1-macro score from a baseline of 0.372 to **0.620**.
 * **Multilingual Model:** Achieved an F1-macro score of **0.811**.
